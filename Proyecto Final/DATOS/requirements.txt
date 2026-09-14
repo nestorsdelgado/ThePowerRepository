@@ -1,0 +1,14 @@
+# Dependencias del proyecto · Consumo de los hogares (EPF) + precios (IPC) 2024
+#
+# Instalación (recomendado dentro de un entorno virtual):
+#   pip install -r requirements.txt
+#
+# Versiones fijadas para reproducibilidad. Si alguna no estuviera disponible en
+# tu equipo, puedes sustituir "==" por ">=".
+
+pandas==3.0.2         # manejo de datos (ambos scripts)
+numpy==2.4.4          # cálculos numéricos y ponderaciones por FACTOR
+matplotlib==3.10.8    # figuras del EDA
+seaborn==0.13.2       # estilo y gráficos estadísticos del EDA
+scipy==1.17.1         # contrastes (Kruskal-Wallis) y correlaciones
+xlsxwriter==3.2.9     # generar el .xlsx final correcto en 01_construir_dataset.py
